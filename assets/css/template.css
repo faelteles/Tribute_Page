@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+
+}
+*{
+    font-family: cursive;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+.container{
+    display:flex;
+    background-color: #AAA;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 990px;
+}
+.imagem img{
+    width: 400px;
+
+}
+.apresentacao{
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 890px;
+    align-items: center;
+    justify-content: center;
+}
+.timeline h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.timeline li{
+
+    margin-bottom: 10px;
+    text-align: justify;
+    border-bottom: 1px solid #888;
+    align-items: center;
+}
+.frase{
+    
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid;
+    border-radius: 50px;
+    width: 890px;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+
+}
+.img_direitos{
+    width: 15px;
+}
+
+@media only screen and (max-width:990px){
+    .container{
+        width: 890px;
+    }
+    .apresentacao{
+        width: 700px;
+    }
+    .frase{
+        width: 700px;
+    }
+}
+@media only screen and (max-width:720px){
+    .container{
+        width: 690px;
+    }
+    .apresentacao{
+        width: 600px;
+    }
+    .frase{
+        width: 600px;
+    }
+    .timeline{
+        width: 600px;
+    }
+}
+@media only screen and (max-width:600px){
+    .container{
+        width: 500px;
+    }
+    .apresentacao{
+        width: 400px;
+    }
+    .frase{
+        width: 400px;
+        font-size: 18px;
+    }
+    .timeline{
+        width: 400px;
+    }
+    .imagem{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:400px){
+    .container{
+        width: 380px;
+    }
+    .apresentacao{
+        width: 300px;
+    }
+    .frase{
+        width: 300px;
+        font-size: 17px;
+        border-radius:0%;
+        
+    }
+    .timeline{
+        width: 300px;
+    }
+    .imagem{
+        width: 300px;
+    }
+    footer{
+        width: 300px;
+    }
+}
